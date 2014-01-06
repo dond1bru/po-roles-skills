@@ -96,7 +96,6 @@ var nodes = partition.nodes({children: json});
       .duration(duration)
       .attrTween("d", arcTween(d));
 
-    // Somewhat of a hack as we rely on arcTween updating the scales.
     text
       .style("visibility", function(e) {
         return isParentOf(d, e) ? null : d3.select(this).style("visibility");
@@ -134,17 +133,15 @@ function isParentOf(p, c) {
 
 function color(d) {
   if (d.children) {
-    // There is a maximum of two children!
+    // Max two children!
     var colors = d.children.map(color),
         a = d3.hsl(colors[0]),
         b = d3.hsl(colors[1]);
-    // L*a*b* might be better here...
     return d3.hsl((a.h + b.h) / 2, a.s * 1.2, a.l / 1.2);
   }
   return d.color || "#fff";
 }
 
-// Interpolate the scales!
 function arcTween(d) {
   var my = maxY(d),
       xd = d3.interpolate(x.domain(), [d.x, d.x + d.dx]),
@@ -159,7 +156,6 @@ function maxY(d) {
   return d.children ? Math.max.apply(Math, d.children.map(maxY)) : d.y + d.dy;
 }
 
-// http://www.w3.org/WAI/ER/WD-AERT/#color-contrast
 function brightness(rgb) {
   return rgb.r * .299 + rgb.g * .587 + rgb.b * .114;
 }
