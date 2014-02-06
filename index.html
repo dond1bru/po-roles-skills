@@ -44,9 +44,9 @@ p#intro {
     <div id="vis"></div>
 
       <script>
-var w = 1350,
-    h = w,
-    r = w / 2,
+var w = 800, //1350
+    r = w * 0.85, //w / 2
+    h = r * 2, //w
     x = d3.scale.linear().range([0, 1.0 * Math.PI]),
     y = d3.scale.pow().exponent(0.8).domain([0, 1]).range([0, r]),
     p = 5,
