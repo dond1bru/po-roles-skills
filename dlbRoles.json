@@ -86,7 +86,7 @@
             "name": "Engagement",
             "children": [
               {  
-                "name": "Proximity Marketing",
+                "name": "Proximity_Mkt'ing",
                 "children": [
                   {
                     "name": "iBeacon", "color": "#a97d32"
@@ -94,7 +94,7 @@
                 ]
               },
               {
-                "name": "Loyalty Programs",
+                "name": "Loyalty_Pgm's",
                 "children": [
                   {
                     "name": "Passbook", "color": "#b68334"
@@ -317,7 +317,7 @@
             "name": "Ruby__Java_SQL", "color": "#E3D463"
           },
           {
-            "name": "Objective_C JavaScript", "color": "#D1C675"
+            "name": "Objective_C JavaScript_Python", "color": "#D1C675"
           }
         ]
       }
