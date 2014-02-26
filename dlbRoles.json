@@ -114,10 +114,10 @@
         "name": "Data Science",
         "children": [
           {
-            "name": "Clustering", "color": "#b9763f"
+            "name": "Clustering", "color": "#a2765d"
           },
           {
-            "name": "MapReduce", "color": "#9f6652"
+            "name": "MapReduce", "color": "#a2765d"
           }
         ]
       },
@@ -128,12 +128,12 @@
             "name": "Numpy",
             "children": [
               {
-                "name": "Pandas", "color": "#a2765d"
+                "name": "Pandas", "color": "#9f6652"
               }
             ]
           },
           {
-            "name": "SQL", "color": "#d6a680"
+            "name": "SQL", "color": "#b9763f"
           }
         ]
       }
