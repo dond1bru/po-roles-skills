@@ -108,6 +108,38 @@
     ]
   },
   {
+    "name": "Data_Miner",
+    "children": [
+      {
+        "name": "Data Science",
+        "children": [
+          {
+            "name": "Clustering", "color": "#b9763f"
+          },
+          {
+            "name": "MapReduce", "color": "#9f6652"
+          }
+        ]
+      },
+      {
+        "name": "Python",
+        "children": [
+          {
+            "name": "Numpy",
+            "children": [
+              {
+                "name": "Pandas", "color": "#a2765d"
+              }
+            ]
+          },
+          {
+            "name": "SQL", "color": "#d6a680"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "Business Analyst", 
     "children": [
       {
@@ -314,10 +346,10 @@
         "name": "Languages",
         "children": [
           {
-            "name": "Ruby__Java_SQL", "color": "#E3D463"
+            "name": "Ruby__Java", "color": "#E3D463"
           },
           {
-            "name": "Objective_C JavaScript_Python", "color": "#D1C675"
+            "name": "Objective_C JavaScript", "color": "#D1C675"
           }
         ]
       }
