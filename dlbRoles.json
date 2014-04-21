@@ -256,7 +256,7 @@
         ]
       },
      {
-        "name": "Team Mgt",
+        "name": "Agile_SDLC Team_Mgt",
         "children": [
           {
             "name": "Direct, Indirect", "color": "#e098b0"
@@ -265,7 +265,7 @@
             "name": "Centralized, Distributed", "color": "#ee82a2"
           },
           {
-            "name": "Lean_/ Agile_/_RUP", "color": "#ef91ac"
+            "name": "Lean_/_Scrum /_RUP", "color": "#ef91ac"
           }
         ]
       },
